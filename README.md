@@ -1,8 +1,15 @@
-# React + Vite
+# gdgc_task_round_frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**`gdgc_task_round_frontend`** is a frontend task built using **React.js** and **Tailwind CSS**. The project showcases a responsive and elegant design and is deployed on **GitHub Pages**.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React.js**: Utilizes modern JavaScript features and component-based architecture.
+- **Tailwind CSS**: Rapidly styled using utility-first CSS classes.
+- **Responsive Design**: Optimized for devices of all sizes.
+- **GitHub Pages Deployment**: Live version available for testing and review.
+
+## 🌐 Live Demo
+
+Check out the deployed version here:  
+[Live Demo](https://gagan771.github.io/gdgc_task_round_frontend/)
