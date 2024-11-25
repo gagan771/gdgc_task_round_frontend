@@ -30,38 +30,38 @@ const Info = () => {
                 </div>
             </div>
             {/* Cards Section */}
-            <div className="cards-section flex flex-col md:flex-row gap-8 md:basis-2/3 mx-auto w-[90%]">
+            <div className="cards flex flex-col md:flex-row gap-8 md:basis-2/3 mx-auto w-[90%]">
                 {/* Card 1 */}
-                <div className="card bg-orange-500 rounded-xl flex flex-col justify-between gap-8 px-6 py-6 hover:scale-105 transition-transform duration-300 ease-in-out hover:cursor-pointer w-full max-w-[380px] mx-auto md:max-w-[400px]">
-                    <div className="card-title text-black font-semibold text-lg md:text-xl">
+                <div className="card-1 bg-orange-500 rounded-xl flex flex-col justify-between gap-8 px-6 py-6 hover:scale-[1.05] transition-transform duration-300 ease-in-out hover:cursor-pointer w-full max-w-[380px] mx-auto md:max-w-[400px]">
+                    <div className="text-black font-semibold bg-transparent text-lg md:text-xl">
                         UNIQUE <br /> BUSINESS SOLUTIONS
                     </div>
-                    <div className="card-icon">
-                        <img src={circles} className="h-10 md:h-12" alt="Circles" />
+                    <div className="icon bg-transparent">
+                        <img src={circles} className="bg-transparent h-10 md:h-12" alt="circles" />
                     </div>
                 </div>
                 {/* Card 2 */}
-                <div className="card bg-gray-300 rounded-xl flex flex-col justify-between gap-8 px-6 py-6 hover:scale-105 transition-transform duration-300 ease-in-out hover:cursor-pointer w-full max-w-[380px] mx-auto md:max-w-[400px]">
-                    <div className="card-icon flex justify-end">
-                        <img src={topright} className="h-10 md:h-12 invert" alt="Top right icon" />
+                <div className="card-2 bg-[#e0e0e0] rounded-xl flex flex-col justify-between gap-8 px-6 py-6 hover:scale-[1.05] transition-transform duration-300 ease-in-out hover:cursor-pointer w-full max-w-[380px] mx-auto md:max-w-[400px]">
+                    <div className="icon bg-transparent flex justify-end">
+                        <img src={topright} className="bg-transparent h-10 md:h-12 invert" alt="top right icon" />
                     </div>
-                    <div className="card-title text-black font-bold text-2xl md:text-4xl">
+                    <div className="text font-bold text-2xl md:text-4xl bg-transparent text-black">
                         OUR CASE <br /> STUDIES
                     </div>
                 </div>
                 {/* Card 3 */}
-                <div className="card bg-yellow-300 rounded-xl flex flex-col justify-between gap-8 px-6 py-6 hover:scale-105 transition-transform duration-300 ease-in-out hover:cursor-pointer w-full max-w-[380px] mx-auto md:max-w-[400px]">
-                    <div className="card-title text-black font-bold text-lg md:text-xl">
+                <div className="card-3 bg-yellow-300 rounded-xl flex flex-col justify-between gap-8 px-6 py-6 hover:scale-[1.05] transition-transform duration-300 ease-in-out hover:cursor-pointer w-full max-w-[380px] mx-auto md:max-w-[400px]">
+                    <div className="text-black bg-transparent font-bold text-lg md:text-xl">
                         SUCCESSFUL <br /> PROJECTS
                     </div>
-                    <div className="card-number flex items-start gap-2">
-                        <div className="number text-6xl md:text-7xl lg:text-8xl text-black">700</div>
-                        <div className="plus-sign text-2xl md:text-4xl font-bold text-black">+</div>
+                    <div className="number bg-transparent flex items-start gap-2">
+                        <div className="text-6xl md:text-7xl lg:text-8xl bg-transparent text-black">700</div>
+                        <div className="text-2xl md:text-4xl font-bold bg-transparent text-black">+</div>
                     </div>
                 </div>
             </div>
         </div>
-    );
-};
+    )
+}
 
 export default Info;
